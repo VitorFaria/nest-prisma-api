@@ -24,7 +24,8 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+API Rest made with framework NestJS using Prisma as an ORM.
+This API also makes use of Docker to run the application
 
 ## Installation
 
@@ -36,13 +37,10 @@ $ npm install
 
 ```bash
 # development
-$ npm run start
+$ With docker engine installed, Run docker-compose up to mount and build the container
 
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+# Docker back
+$ docker-compose exec app bash, to install any npm package inside NestJS application or to see the prisma localhost database management 
 ```
 
 ## Test
