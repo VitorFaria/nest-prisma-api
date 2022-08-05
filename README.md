@@ -30,7 +30,7 @@ This API also makes use of Docker to run the application
 ## Installation
 
 ```bash
-$ npm install
+$ docker-compose up
 ```
 
 ## Running the app
